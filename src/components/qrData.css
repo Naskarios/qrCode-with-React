@@ -4,9 +4,15 @@
     align-self: center;
 }
 
+.button1{
+    margin: 10px;
+}
+
 .button2{
     padding: 10px;
     /* outline-color: black;
     outline-width: thin;
     outline:auto; */
+    border: black;
+    border-style: solid;
 }

@@ -9,7 +9,6 @@ import ReactDOM from "react-dom";
 import QrCodeComp from "./components/QrData";
 import HeaderInfo from "./components/HeaderInfo";
 import FooterInfo from "./components/FooterInfo";
-// import New from "./components/New";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <HeaderInfo></HeaderInfo>
       <QrCodeComp></QrCodeComp>
       <FooterInfo></FooterInfo>
-      {/* <New text=" xrwmatA"></New> */}
     </div>
   );
 }

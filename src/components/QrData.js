@@ -18,7 +18,7 @@ function QrCodeComp() {
     console.log(event.target.textLength);
 
     // To prevent the user from causing error
-    // (the condition isnt set to the actual limit the reactQRCode library can take.)
+    // (the condition isn t set to the actual limit the reactQRCode library can take.)
     //The user doesnt need to know this :)
     if (event.target.textLength > 3000) {
       alert("CHARACTER LIMIT EXCEEDED \n RESETING INPUT");
@@ -53,7 +53,7 @@ function QrCodeComp() {
         <input
           type="text"
           name="qrBgData"
-          className="alert alert-primary "
+          className="alert alert-primary button1"
           placeholder="#DD3371"
           onChange={handleChange}
         ></input>
@@ -62,7 +62,7 @@ function QrCodeComp() {
         <input
           type="text"
           name="qrFgData"
-          className="alert alert-primary "
+          className="alert alert-primary button1"
           placeholder="#40F777"
           onChange={handleChange}
         ></input>
@@ -72,7 +72,7 @@ function QrCodeComp() {
 
         <button
           type="submit"
-          className="alert alert-primary "
+          className="alert alert-primary button1"
           onClick={() => {
             setData({
               qrData:

@@ -10,6 +10,7 @@ function HeaderInfo() {
     </>
   );
   //conditional rendering + event practise
+
   //   const info = ["take your input", "create qr", "look pretty"];
   //   let usedOnce = false;
   //   //actual hadler
