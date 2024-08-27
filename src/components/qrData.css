@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.button2{
+    padding: 10px;
+    /* outline-color: black;
+    outline-width: thin;
+    outline:auto; */
+}

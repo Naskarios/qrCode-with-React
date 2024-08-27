@@ -2,7 +2,7 @@ function FooterInfo() {
   return (
     <>
       <p>
-        This app was made by <a href="https://github.com/Naskarios/"></a>Nask
+        This app was made by <a href="https://github.com/Naskarios/">Nask</a>
       </p>
     </>
   );
